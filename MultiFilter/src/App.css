@@ -1,0 +1,40 @@
+.app{
+  max-width:1200px;
+  margin:0 auto;
+  display: flex;
+  
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.filter{
+  margin-top: 2rem;
+  margin: 2rem auto;
+  display: flex;
+  gap:2rem;
+}
+.btn{
+  background: whitesmoke;
+  padding: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.products{
+  display: flex;
+  gap:2rem;
+  margin: 2rem auto;
+}
+.single-product{
+  display: flex;
+  padding: 1rem;
+  background: whitesmoke;
+  
+}
+.active {
+  background: black;
+  color: white;  
+  padding: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+
+}

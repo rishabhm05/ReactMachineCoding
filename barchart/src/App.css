@@ -1,0 +1,53 @@
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.y-axis{
+    display: flex;
+    align-items: center;
+    gap:2px;
+
+}
+.y-axis>p{
+transform: rotate(270deg);
+}
+.bar-container{
+    display: flex;
+    align-items: center;
+   
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 2rem auto;
+    gap:20px;
+}
+
+.singleChart {
+    align-self: flex-end;
+    width: 50px;
+    height: 250px;
+    cursor: pointer;
+    color:transparent;
+    position: relative;
+    text-wrap: nowrap;
+    transition: height 0.5s ease-in-out;
+    
+}
+
+.tooltip{
+    position: absolute;
+   z-index: 2;
+   opacity: 0;
+   color: white;
+   background: black;
+   border-radius: 5px;
+   padding: 5px;
+}
+.singleChart:hover .tooltip{
+   
+    opacity: 1;
+   
+}
