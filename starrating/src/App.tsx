@@ -13,7 +13,7 @@ function App() {
      Star Rating
      <div>
     {[...Array(5)].map((_,index)=>{
-      return <span onMouseLeave={()=>setHover(rating)} onMouseEnter={()=>setHover(index+1)} style={{color:`${hover>index?"yellow":""}`}} onClick={()=>handleClick(index)} key={index}>
+      return <span className={`${hover>index?"hover":""}`} onMouseLeave={()=>setHover(rating)} onMouseEnter={()=>setHover(index+1)}  onClick={()=>handleClick(index)} key={index}>
         <FaStar />
       </span>
     })}
