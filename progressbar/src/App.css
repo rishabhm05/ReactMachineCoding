@@ -1,0 +1,15 @@
+.progress-container{
+  width: 500px;
+  height: 50px;
+  background: grey;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+.progress{
+position: absolute;
+width: 100%;
+height: 100%;
+background: green;
+transform: translateX(-100%);
+}
