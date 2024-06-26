@@ -1,0 +1,16 @@
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider-img{
+  object-fit: cover;
+ 
+ height: 400px;
+}
+.show{
+display: block;
+}
+.hide{
+  display: none;
+}
