@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.traffic{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 450px;
+  background: black;
+  margin: auto;
+  flex-direction: column;
+  padding: 2rem;
+}
+.light{
+  width: 50%;
+  height: 20%;
+  background: gray;
+  border-radius: 100%;
+}
