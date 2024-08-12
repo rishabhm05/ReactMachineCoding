@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  display: flex;
+ max-width: 1200px;
+ margin: auto;
+ align-items: center;
+flex-direction: column;
+}
+
+.board{
+  display: flex;
+ gap:10px;
+
+}
+.board-item{
+  background: whitesmoke;
+  min-width: 250px;
+  min-height: 450px;
+  border-radius: 25px;
+  padding: 2rem;
+  margin: 2rem;
+}
+.task{
+  background: white;
+  width: 50%;
+  height: 20%;
+ padding: 1rem;
+}

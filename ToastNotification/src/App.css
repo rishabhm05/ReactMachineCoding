@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.notifications{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  right: 1%;
+  overflow: hidden;
+}
+.notification{
+  min-width: 30px;
+  min-height: 30px;
+  background: green;
+animation:  slide 1s 1;
+cursor: pointer;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  
+  100% {
+    transform: translateX(0%);
+  }
+}
+.cross{
+  cursor: pointer;
+}

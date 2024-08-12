@@ -1,0 +1,24 @@
+.game{
+  display: flex;
+  gap:2rem;
+  max-width: 400px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+ 
+}
+.btn{
+  padding: 0.2rem;
+  cursor: pointer;
+  border: 2px solid #414141;
+}
+.selected{
+  border: 2px solid blue;
+}
+.correct{
+  border: 2px solid green;
+}
+.incorrect{
+  border: 2px solid red;
+}
