@@ -1,6 +1,7 @@
 import './App.css'
 import Accordion from './components/Accordion'
 import { data } from './data'
+// adding code test
 function App() {
   
   return (
